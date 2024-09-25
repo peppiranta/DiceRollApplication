@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/peppiranta/DiceRollApplication'
+                git 'https://github.com/peppiranta/DiceRollApplication.git'
             }
         }
         stage('Build') {
